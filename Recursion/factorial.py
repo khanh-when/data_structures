@@ -1,4 +1,3 @@
-
 def factorial(n: int):
 
     if n == 1 or n == 0:
@@ -7,4 +6,3 @@ def factorial(n: int):
     return n * factorial(n-1)
 
 
-print(factorial(0))
